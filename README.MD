@@ -13,6 +13,7 @@ There are some library boilerplates out there but they have some or all of the f
  * no bundler included
 
 #### Are there good alternatives? 
+Yes and you should definitely check them out:
 * [es6-npm-module](https://github.com/ghaiklor/generator-es6-npm-module) yeoman generator that is worth trying
 * [es6-library-boilerplate](https://github.com/CurtisHumphrey/es6-library-boilerplate) boilerplate for frontend libraries with a lot of features
 
