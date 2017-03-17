@@ -22,7 +22,9 @@ Feel free to make a pull request. All contributions are appreciated!
 
 #### Make it your own
 * remove .git directory (with `rm -rf .git` command)
-* Rename all `library-boilerplate` in package.json to your name
+* Rename all `library-boilerplate` in package.json to name of your library
+* Change author and/or licence as well as the repo url in package.json
+* Change author name in LICENCE file
 
 #### Add exports in src/index.js
 You can import export whatever you want using es2015 default or named exports as you need
