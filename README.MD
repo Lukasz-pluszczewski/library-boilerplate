@@ -12,8 +12,9 @@ There are some library boilerplates out there but they have some or all of the f
  * tests environment not configured
  * no bundler included
 
-#### Are there good alternatives?
-Yes. One example is [es6-npm-module](https://github.com/ghaiklor/generator-es6-npm-module) yeoman generator that is worth trying 
+#### Are there good alternatives? 
+* [es6-npm-module](https://github.com/ghaiklor/generator-es6-npm-module) yeoman generator that is worth trying
+* [es6-library-boilerplate](https://github.com/CurtisHumphrey/es6-library-boilerplate) boilerplate for frontend libraries with a lot of features
 
 #### I found a bug! What should I do?
 Feel free to make a pull request. All contributions are appreciated! 
