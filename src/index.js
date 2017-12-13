@@ -1,1 +1,5 @@
-export default {};
+export default {
+  foo() {
+    return 'foo';
+  }
+};

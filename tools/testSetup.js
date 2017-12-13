@@ -1,8 +1,12 @@
-// Register babel so that it will transpile ES6 to ES5
-// before our tests run.
+// Register babel so that it will transpile ES6 to ES5 before our tests run.
+// We need to specify presets as, because of rollup, we disabled "modules" in .babelrc, but it must be enabled for tests
 require('babel-register')({
-  "presets": ["es2015", "stage-0"]
+  'babelrc': false,
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ]
 });
-require('babel-polyfill');
-
-process.env.NODE_ENV = 'test';
