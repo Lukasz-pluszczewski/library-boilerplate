@@ -14,7 +14,7 @@
     "prebuild": "rimraf ./lib",
     "build": "NODE_PATH=src rollup -c",
     "watch": "NODE_PATH=src rollup -c -w",
-    "lint": "esw rollup.config.js src --color",
+    "lint": "esw rollup.config.js src test --color",
     "test": "npm run mochatest --silent",
     "test:watch": "npm run mochatest -- --watch",
     "mochatest": "NODE_PATH=src NODE_ENV=test mocha tools/testSetup.js \"./test/**/*.js\""
