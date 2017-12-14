@@ -49,7 +49,7 @@ npm run build
 This will create lib directory with UMD and ES2015 versions of minified bundles
 
 #### CI
-There is very simple circle.yml configuration file for CircleCI. Feel free to use it or just remove it.
+There is very simple circle.yml configuration file for CircleCI (ver 2). Feel free to use it or just remove it.
 
 ## FAQ
 #### Why have you disabled package-lock.json?
