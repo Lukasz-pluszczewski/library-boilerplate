@@ -3,6 +3,11 @@
 
 Library boilerplate using rollup for bundling, babel for transpiling to ES5, ESlint for linting and mocha/chai/sinon stack for tests that makes it easy and fast to make your own NPM plugin for use both in Node.js and browser environment.
 
+## DEPRECATED
+This repo should be considered deprecated and is not maintained anymore.
+
+I strongly recommend using https://github.com/hodgef/js-library-boilerplate.
+
 ## Usage
 
 #### Make it your own
