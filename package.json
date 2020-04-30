@@ -10,14 +10,15 @@
   "module": "lib/library-boilerplate.mjs",
   "jsnext:main": "lib/library-boilerplate.mjs",
   "scripts": {
-    "prepublish": "NODE_PATH=src npm run build",
+    "prepublish": "npm run snyk-protect && NODE_PATH=src npm run build",
     "prebuild": "rimraf ./lib",
     "build": "NODE_PATH=src rollup -c",
     "watch": "NODE_PATH=src rollup -c -w",
     "lint": "esw rollup.config.js src test --color",
     "test": "npm run mochatest --silent",
     "test:watch": "npm run mochatest -- --watch",
-    "mochatest": "NODE_PATH=src NODE_ENV=test mocha tools/testSetup.js \"./test/**/*.js\""
+    "mochatest": "NODE_PATH=src NODE_ENV=test mocha tools/testSetup.js \"./test/**/*.js\"",
+    "snyk-protect": "snyk protect"
   },
   "keywords": [
     "NPM",
@@ -50,6 +51,8 @@
   },
   "dependencies": {
     "debug": "3.1.0",
-    "lodash": "4.17.4"
-  }
+    "lodash": "4.17.4",
+    "snyk": "^*"
+  },
+  "snyk": true
 }
